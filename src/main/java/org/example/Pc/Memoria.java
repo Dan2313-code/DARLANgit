@@ -10,7 +10,7 @@ public class Memoria extends Processador{
         this.capacidadeArmazenamento = capacidadeArmazenamento;
         this.marca = marca1;
         this.modelo = modelo1;
-    }
+    }///aa
 
     public String getCapacidadeArmazenamento() {
         return capacidadeArmazenamento;
