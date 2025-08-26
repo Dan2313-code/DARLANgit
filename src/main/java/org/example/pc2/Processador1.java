@@ -24,4 +24,5 @@ public class Processador1 extends Produto {
                 ", modelo='" + modelo + '\'' +
                 '}';
     }
+    //res
 }
