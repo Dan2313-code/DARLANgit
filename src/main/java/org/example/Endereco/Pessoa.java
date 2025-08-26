@@ -1,8 +1,5 @@
 package org.example.Endereco;
 
-import org.example.Endereco.Endereco;
-import org.example.Sexo;
-
 public class Pessoa {
     private Integer id;
     private String nome;

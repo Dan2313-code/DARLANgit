@@ -1,7 +1,5 @@
 package org.example.Endereco;
 
-import org.example.UnidadeFederativa;
-
 public class Endereco {
 
     private String logradrouro;

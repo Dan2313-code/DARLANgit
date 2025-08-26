@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Endereco;
 public enum Sexo {
     FEMININO("Feminino"),
     MASCULINO("Masculino");

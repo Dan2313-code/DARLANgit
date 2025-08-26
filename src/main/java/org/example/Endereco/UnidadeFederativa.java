@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Endereco;
 public enum UnidadeFederativa {
     BAHIA("BA"),
     SAO_PAULO("SP"),
