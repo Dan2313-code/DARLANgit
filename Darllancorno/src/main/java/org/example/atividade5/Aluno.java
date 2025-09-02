@@ -1,52 +1,27 @@
 package org.example.atividade5;
 
 public class Aluno extends Pessoa {
-    private String disciplina;
-    private double nota;
+    private String curso;
 
-    public Aluno(){}
-
-    public Aluno(String disciplina, double nota, int id, String nome){
-
+    public Aluno(int id, String nome, String curso) {
         super(id, nome);
-        this.disciplina = disciplina;
-        this.nota = nota;
+        this.curso = curso;
     }
 
-    public Aluno(String disciplina, double nota) {
-        this.disciplina = disciplina;
-        this.nota = nota;
+    public String getCurso() {
+        return curso;
     }
 
-    public Aluno(int id, String nome, String disciplina, double nota) {
-        super(id, nome);
-        this.disciplina = disciplina;
-        this.nota = nota;
-    }
-
-    public String getDisciplina() {
-        return disciplina;
-    }
-
-    public void setDisciplina(String disciplina) {
-        this.disciplina = disciplina;
-    }
-
-    public double getNota() {
-        return nota;
-    }
-
-    public void setNota(double nota) {
-        this.nota = nota;
+    public void setCurso(String curso) {
+        this.curso = curso;
     }
 
     @Override
     public String toString() {
         return "Aluno{" +
-                "disciplina='" + disciplina + '\'' +
-                ", nota=" + nota +
-                ", id=" + id +
+                "id=" + id +
                 ", nome='" + nome + '\'' +
+                ", curso='" + curso + '\'' +
                 '}';
     }
 }

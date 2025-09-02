@@ -1,40 +1,29 @@
 package org.example.atividade5;
 
 public class Professor extends Pessoa{
+    private String disciplina;
 
-    private String matricula;
-
-    public Professor(){}
-
-    public Professor(String matricula,int id, String nome){
-
-        super(id,nome);
-        this.matricula = matricula;
-    }
-
-    public Professor(String matricula) {
-        this.matricula = matricula;
-    }
-
-    public Professor(int id, String nome, String matricula) {
+    public Professor(int id, String nome, String disciplina) {
         super(id, nome);
-        this.matricula = matricula;
+        this.disciplina = disciplina;
     }
 
-    public String getMatricula() {
-        return matricula;
+    public String getDisciplina() {
+        return disciplina;
     }
 
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
     }
 
     @Override
     public String toString() {
         return "Professor{" +
-                "matricula='" + matricula + '\'' +
-                ", id=" + id +
+                "id=" + id +
                 ", nome='" + nome + '\'' +
+                ", disciplina='" + disciplina + '\'' +
                 '}';
     }
+
+
 }
