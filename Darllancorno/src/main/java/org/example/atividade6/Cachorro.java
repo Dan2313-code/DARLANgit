@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package org.example.atividade6;
 
 public class Cachorro implements Animal{
@@ -11,3 +12,13 @@ public class Cachorro implements Animal{
         return "Ração";
     }
 }
+=======
+package org.example.atividade6;
+
+public class Cachorro implements Animal{
+    @Override
+    public String emitirSom() {
+        return "Au Au";
+    }
+}
+>>>>>>> b408acf1e85ecc929508c2569b98dd981ce62bcd

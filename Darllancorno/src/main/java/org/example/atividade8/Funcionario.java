@@ -1,4 +1,11 @@
-package org.example.atividade8;
+package org.example.Atividade8;
 
-public class Funcionario {
+public interface Funcionario {
+ protected String nome;
+ protected String dataDeNascimento;
+ protected String Sexo;
+ protected String Setor;
+
+
+
 }
